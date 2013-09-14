@@ -20,3 +20,9 @@ Microsoft DirectX SDK (June 2010)
 * 'S' - Shuffle 
 * 'R' - Restore
 * 'Esc' - Quit
+
+## Screen shot
+
+![Restore](https://raw.github.com/zdd/RubikCube/master/screenshot_restore.jpg)
+![Shuffle](https://raw.github.com/zdd/RubikCube/master/screenshot_shuffle.jpg)
+![Rotate](https://raw.github.com/zdd/RubikCube/master/screenshot_rotate.jpg)
