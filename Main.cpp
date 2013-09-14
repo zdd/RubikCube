@@ -1,6 +1,5 @@
 #include <time.h>
 
-#include "resource.h"
 #include "RubikCube.h"
 
 RubikCube rubikCube;
@@ -27,7 +26,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine,
 	winClass.style         = CS_HREDRAW | CS_VREDRAW;
 	winClass.lpfnWndProc   = WndProc;
 	winClass.hInstance     = hInstance;
-	winClass.hIcon	       = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON));
+	winClass.hIcon	       = NULL;
 	winClass.hIconSm	   = NULL ;
 	winClass.hCursor       = LoadCursor(NULL, IDC_ARROW) ; 
 	winClass.hbrBackground = NULL ;

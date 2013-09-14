@@ -105,19 +105,7 @@
     <ClInclude Include="Cube.h" />
     <ClInclude Include="D3D9.h" />
     <ClInclude Include="Math.h" />
-    <ClInclude Include="resource.h" />
     <ClInclude Include="RubikCube.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="RubikCube.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="icon.ico">
-      <DeploymentContent>true</DeploymentContent>
-    </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="enhancement.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

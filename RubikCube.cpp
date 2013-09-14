@@ -1040,6 +1040,8 @@ int  RubikCube::GetHitLayer(Face face, D3DXVECTOR3& rotate_axis, D3DXVECTOR3& hi
 			break;
 		}
 	}
+
+	return -1;
 }
 
 void RubikCube::RotateLayer(int layer, D3DXVECTOR3& axis, float angle)
