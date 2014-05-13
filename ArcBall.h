@@ -21,10 +21,10 @@ public:
 	void SetWindow(int window_width, int window_height, float arcball_radius = 1.0f) ;
 
 private:
-	int		window_width_ ;	// arc ball's window width
+	int		window_width_ ;	 // arc ball's window width
 	int		window_height_ ; // arc ball's window height
-	float	radius_ ;	// arc ball's radius in screen coordinates
-	bool	is_dragged_ ;	// whether the arc ball is dragged
+	float	radius_ ;	     // arc ball's radius in screen coordinates
+	bool	is_dragged_ ;	 // whether the arc ball is dragged
 
 	D3DXQUATERNION	previous_quaternion_ ;	// quaternion before mouse down
 	D3DXQUATERNION	current_quaternion_ ;	// current quaternion
